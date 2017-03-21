@@ -4,7 +4,7 @@
               To include a user specific buildfile here, simply create one in the same
               directory with the processing instruction <?eclipse.ant.import?>
               as the first entry and export the buildfile again. -->
-<project basedir="." default="test" name="Test03">
+<project basedir="." default="test" name="test">
     <property name="src" value="src"/>
     <property name="dest" value="classes"/>
     <property name="helloant_jar" value="helloant.jar"/>
